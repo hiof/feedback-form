@@ -1,0 +1,14 @@
+# OS generated files #
+######################
+.DS_Store*
+thumbs.db
+# Icon?
+Thumbs.db
+
+build/**/*
+dist/**/*
+vendor/**/*
+node_modules/**/*
+
+tmp
+secret.json
