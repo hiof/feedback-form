@@ -1,4 +1,6 @@
 (function(Hiof, undefined) {
+    // Setup client information in the view
+    Hiof.view.setupClientInformationInOptions();
 
     Hiof.setupFeedbackForm = function(ln) {
 
