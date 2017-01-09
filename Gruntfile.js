@@ -101,8 +101,8 @@ module.exports = function(grunt) {
     concat: {
       scripts: {
         src: [
-          'vendor/jQuery-ajaxTransport-XDomainRequest/jquery.xdomainrequest.min.js',
-          'build/templates.js',
+          //'vendor/jQuery-ajaxTransport-XDomainRequest/jquery.xdomainrequest.min.js',
+          //'build/templates.js',
           'build/_<%= pkg.name %>.js'
         ],
         dest: 'build/<%= pkg.name %>.v<%= pkg.version %>.js'
